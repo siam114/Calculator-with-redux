@@ -21,8 +21,35 @@ const CalculatorApp = () => {
           </div>
 
           {/* keypad */}
-          <div>
-            <button className="text-white">1</button>
+          <div className="grid grid-cols-4 gap-2 my-3 mx-4">
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+
+
+              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+
+
+              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+
+
+              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+
+
+              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
           </div>
         </div>
       </section>
