@@ -22,34 +22,32 @@ const CalculatorApp = () => {
 
           {/* keypad */}
           <div className="grid grid-cols-4 gap-2 my-3 mx-4">
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-gray-900 bg-white w-20 h-20 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">AC</button>
+            <button className="text-gray-900 bg-white w-20 h-20 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">C</button>
+            <button className="text-gray-900 bg-white w-20 h-20 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">/</button>
+            <button className="text-gray-900 bg-white w-20 h-42 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow row-span-2">+</button>
+
+
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">9</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">8</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">7</button>
+
+
+              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">4</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">5</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">6</button>
+            <button className="text-gray-900 bg-white w-20 h-20  rounded-lg font-bold text-3xl flex justify-center items-center cursor-pointer shadow">-</button>
 
 
               <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">2</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">3</button>
+            <button className="text-gray-900 bg-white w-20 h-20  rounded-lg font-bold text-3xl flex justify-center items-center cursor-pointer shadow">*</button>
 
 
-              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-
-
-              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-
-
-              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
-            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">1</button>
+              <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">.</button>
+            <button className="text-white w-20 h-20 bg-indigo-500 rounded-lg font-bold text-2xl flex justify-center items-center cursor-pointer shadow">0</button>
+            <button className="text-gray-900 bg-white w-43 h-20 rounded-lg font-bold text-3xl flex justify-center items-center cursor-pointer shadow col-span-2">=</button>
           </div>
         </div>
       </section>
