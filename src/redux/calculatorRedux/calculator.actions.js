@@ -1,4 +1,4 @@
-import { LOAD_ANS, LOAD_BACKSPACE, LOAD_BUTTONS, LOAD_CLEAR } from "./calculator.actionTypes"
+import { LOAD_ANSWER, LOAD_BACKSPACE, LOAD_BUTTONS, LOAD_CLEAR } from "./calculator.actionTypes"
 
 export const loadButtons = (number) => {
     return {
@@ -7,9 +7,9 @@ export const loadButtons = (number) => {
     }
 }
 
-export const loadAns = (number) => {
+export const loadAnswer = (number) => {
     return {
-        type: LOAD_ANS,
+        type: LOAD_ANSWER,
         payload: number
     }
 }
